@@ -1,0 +1,367 @@
+fileFormatVersion: 2
+guid: 267a447c92f0ae34ebc95d4cdd548e1b
+timeCreated: 1483099285
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Closed_box.001
+    100002: Closed_box.002
+    100004: Closed_box.004
+    100006: Closed_box.005
+    100008: Closed_box.007
+    100010: Closed_box.008
+    100012: Closed_box.010
+    100014: Closed_box.011
+    100016: Closed_box.012
+    100018: Closed_box.013
+    100020: Closed_box.014
+    100022: Closed_box.016
+    100024: Closed_box.017
+    100026: Closed_box.018
+    100028: Closed_box.019
+    100030: Closed_box.020
+    100032: Column
+    100034: Column1
+    100036: Hay
+    100038: Hay.001
+    100040: Hay.002
+    100042: Hay.003
+    100044: Hay.004
+    100046: Hay.005
+    100048: Hay.006
+    100050: Hay.007
+    100052: Hay.008
+    100054: Hay.009
+    100056: Hay.010
+    100058: Hay.011
+    100060: Hay.013
+    100062: Hay.014
+    100064: Hay.015
+    100066: Hay.016
+    100068: Hay.017
+    100070: Hay.018
+    100072: Hay.020
+    100074: Hay.021
+    100076: Hay.022
+    100078: Hay.023
+    100080: Hay.024
+    100082: Hay.025
+    100084: Hay.026
+    100086: Hay.027
+    100088: Hay.028
+    100090: Hay.029
+    100092: Hay.030
+    100094: Hay.031
+    100096: Open Box.001
+    100098: Open Box.002
+    100100: Open Box.003
+    100102: Open Box.004
+    100104: Open Box.005
+    100106: Stable
+    100108: //RootNode
+    100110: Stock1
+    100112: Stock2
+    100114: Table
+    100116: Table2
+    400000: Closed_box.001
+    400002: Closed_box.002
+    400004: Closed_box.004
+    400006: Closed_box.005
+    400008: Closed_box.007
+    400010: Closed_box.008
+    400012: Closed_box.010
+    400014: Closed_box.011
+    400016: Closed_box.012
+    400018: Closed_box.013
+    400020: Closed_box.014
+    400022: Closed_box.016
+    400024: Closed_box.017
+    400026: Closed_box.018
+    400028: Closed_box.019
+    400030: Closed_box.020
+    400032: Column
+    400034: Column1
+    400036: Hay
+    400038: Hay.001
+    400040: Hay.002
+    400042: Hay.003
+    400044: Hay.004
+    400046: Hay.005
+    400048: Hay.006
+    400050: Hay.007
+    400052: Hay.008
+    400054: Hay.009
+    400056: Hay.010
+    400058: Hay.011
+    400060: Hay.013
+    400062: Hay.014
+    400064: Hay.015
+    400066: Hay.016
+    400068: Hay.017
+    400070: Hay.018
+    400072: Hay.020
+    400074: Hay.021
+    400076: Hay.022
+    400078: Hay.023
+    400080: Hay.024
+    400082: Hay.025
+    400084: Hay.026
+    400086: Hay.027
+    400088: Hay.028
+    400090: Hay.029
+    400092: Hay.030
+    400094: Hay.031
+    400096: Open Box.001
+    400098: Open Box.002
+    400100: Open Box.003
+    400102: Open Box.004
+    400104: Open Box.005
+    400106: Stable
+    400108: //RootNode
+    400110: Stock1
+    400112: Stock2
+    400114: Table
+    400116: Table2
+    2300000: Closed_box.001
+    2300002: Closed_box.002
+    2300004: Closed_box.004
+    2300006: Closed_box.005
+    2300008: Closed_box.007
+    2300010: Closed_box.008
+    2300012: Closed_box.010
+    2300014: Closed_box.011
+    2300016: Closed_box.012
+    2300018: Closed_box.013
+    2300020: Closed_box.014
+    2300022: Closed_box.016
+    2300024: Closed_box.017
+    2300026: Closed_box.018
+    2300028: Closed_box.019
+    2300030: Closed_box.020
+    2300032: Column
+    2300034: Column1
+    2300036: Hay
+    2300038: Hay.001
+    2300040: Hay.002
+    2300042: Hay.003
+    2300044: Hay.004
+    2300046: Hay.005
+    2300048: Hay.006
+    2300050: Hay.007
+    2300052: Hay.008
+    2300054: Hay.009
+    2300056: Hay.010
+    2300058: Hay.011
+    2300060: Hay.013
+    2300062: Hay.014
+    2300064: Hay.015
+    2300066: Hay.016
+    2300068: Hay.017
+    2300070: Hay.018
+    2300072: Hay.020
+    2300074: Hay.021
+    2300076: Hay.022
+    2300078: Hay.023
+    2300080: Hay.024
+    2300082: Hay.025
+    2300084: Hay.026
+    2300086: Hay.027
+    2300088: Hay.028
+    2300090: Hay.029
+    2300092: Hay.030
+    2300094: Hay.031
+    2300096: Open Box.001
+    2300098: Open Box.002
+    2300100: Open Box.003
+    2300102: Open Box.004
+    2300104: Open Box.005
+    2300106: Stable
+    2300108: Stock1
+    2300110: Stock2
+    2300112: Table
+    2300114: Table2
+    3300000: Closed_box.001
+    3300002: Closed_box.002
+    3300004: Closed_box.004
+    3300006: Closed_box.005
+    3300008: Closed_box.007
+    3300010: Closed_box.008
+    3300012: Closed_box.010
+    3300014: Closed_box.011
+    3300016: Closed_box.012
+    3300018: Closed_box.013
+    3300020: Closed_box.014
+    3300022: Closed_box.016
+    3300024: Closed_box.017
+    3300026: Closed_box.018
+    3300028: Closed_box.019
+    3300030: Closed_box.020
+    3300032: Column
+    3300034: Column1
+    3300036: Hay
+    3300038: Hay.001
+    3300040: Hay.002
+    3300042: Hay.003
+    3300044: Hay.004
+    3300046: Hay.005
+    3300048: Hay.006
+    3300050: Hay.007
+    3300052: Hay.008
+    3300054: Hay.009
+    3300056: Hay.010
+    3300058: Hay.011
+    3300060: Hay.013
+    3300062: Hay.014
+    3300064: Hay.015
+    3300066: Hay.016
+    3300068: Hay.017
+    3300070: Hay.018
+    3300072: Hay.020
+    3300074: Hay.021
+    3300076: Hay.022
+    3300078: Hay.023
+    3300080: Hay.024
+    3300082: Hay.025
+    3300084: Hay.026
+    3300086: Hay.027
+    3300088: Hay.028
+    3300090: Hay.029
+    3300092: Hay.030
+    3300094: Hay.031
+    3300096: Open Box.001
+    3300098: Open Box.002
+    3300100: Open Box.003
+    3300102: Open Box.004
+    3300104: Open Box.005
+    3300106: Stable
+    3300108: Stock1
+    3300110: Stock2
+    3300112: Table
+    3300114: Table2
+    4300000: Table
+    4300002: Table2
+    4300004: Column1
+    4300006: Column
+    4300008: Open Box.005
+    4300010: Open Box.004
+    4300012: Open Box.003
+    4300014: Open Box.002
+    4300016: Open Box.001
+    4300018: Closed_box.020
+    4300020: Closed_box.019
+    4300022: Closed_box.018
+    4300024: Closed_box.017
+    4300026: Closed_box.016
+    4300028: Closed_box.014
+    4300030: Closed_box.013
+    4300032: Closed_box.012
+    4300034: Closed_box.011
+    4300036: Closed_box.010
+    4300038: Closed_box.008
+    4300040: Closed_box.007
+    4300042: Closed_box.005
+    4300044: Closed_box.004
+    4300046: Closed_box.002
+    4300048: Closed_box.001
+    4300050: Stock2
+    4300052: Hay.031
+    4300054: Hay.030
+    4300056: Hay.029
+    4300058: Hay.028
+    4300060: Hay.027
+    4300062: Hay.026
+    4300064: Hay.025
+    4300066: Hay.024
+    4300068: Hay.023
+    4300070: Hay.022
+    4300072: Hay.021
+    4300074: Hay.020
+    4300076: Hay.018
+    4300078: Hay.017
+    4300080: Hay.016
+    4300082: Stock1
+    4300084: Hay.015
+    4300086: Hay.014
+    4300088: Hay.013
+    4300090: Hay
+    4300092: Hay.011
+    4300094: Hay.010
+    4300096: Hay.009
+    4300098: Hay.008
+    4300100: Hay.007
+    4300102: Hay.006
+    4300104: Hay.005
+    4300106: Hay.004
+    4300108: Hay.003
+    4300110: Hay.001
+    4300112: Hay.002
+    4300114: Stable
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
