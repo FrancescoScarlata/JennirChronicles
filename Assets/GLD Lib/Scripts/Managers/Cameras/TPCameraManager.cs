@@ -14,6 +14,7 @@ public class TPCameraManager : MonoBehaviour {
 	public Vector3 targetLookAtOffset; // allows offsetting of camera lookAt, very useful for low bumper heights
 
 	public float bumperCameraHeight = 1.0f; // adjust camera height while bumping
+	public float maxDistance = 5;
 
 
 	private Transform target;
@@ -36,7 +37,7 @@ public class TPCameraManager : MonoBehaviour {
 		Vector3 back = target.transform.TransformDirection(Vector3.back); 
 
 		// cast the bumper ray out from rear and check to see if there is anything behind
-		if (Physics.Raycast(target.TransformPoint(bumperRayOffset), back, out hit, bumperDistanceCheck) && hit.transform != target) {
+		if (Physics.Raycast(target.TransformPoint(bumperRayOffset), back, out hit, maxDistance) && hit.transform != target && (hit.transform.CompareTag("environment")|| hit.transform.CompareTag("Wall"))) {
 			// clamp wanted position to hit position
 			wantedPosition.x = hit.point.x;
 			wantedPosition.z = hit.point.z;

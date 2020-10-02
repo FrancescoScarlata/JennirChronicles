@@ -24,7 +24,11 @@ public class ChasingBehaviour : _VigilantBehaviour {
 	private void Chase(Transform t) {
 		if (t == null)
 			return;
-		transform.LookAt (t);
+        Vector3 dirToLook= (t.position- transform.position);
+
+        Quaternion rot = Quaternion.LookRotation(dirToLook, Vector3.up);
+        transform.rotation = Quaternion.Euler(0, rot.eulerAngles.y, 0);
+
         if (Vector3.Distance(transform.position, t.position) > stopAt)
         {
             if (goTowardTarget)

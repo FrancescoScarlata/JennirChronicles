@@ -72,6 +72,7 @@ public class PlayerController : MonoBehaviour {
 		if (active) {
 			if (rb)
             {
+                // this work ok only on the tp
                 float h = Input.GetAxisRaw("Horizontal");
                 float v = Input.GetAxisRaw("Vertical");
                 movement.Set(h, 0f, v);
