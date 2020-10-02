@@ -3,7 +3,6 @@
 public class PlayerController : MonoBehaviour {
 
 	public bool active = true;
-
     public GameObject NPC_Chankeli;
 
     [Range(0.0f, 20.0f)] public float movementSpeed = 4f;
@@ -17,7 +16,11 @@ public class PlayerController : MonoBehaviour {
 	[Range(0.0f, 10.0f)] public float jumpHeight = 1.5f;
     */
 
+    [Header("Crouch elements:")]
     //Crouch declaration
+    public Collider crouchedCollider;
+    public Collider standColl;
+    public Transform jennirShape;
     public bool canCrouch = true;
     public KeyCode crouchKey = KeyCode.C;
     public float crouchHeight = 1f;
@@ -26,6 +29,7 @@ public class PlayerController : MonoBehaviour {
     public float notCrouchSpeed = 4f;
     private bool isCrouched = false;
 
+    [Space(10)]
 
     float camRayLength = 100f;
     Vector3 movement;
@@ -41,7 +45,7 @@ public class PlayerController : MonoBehaviour {
     [Range(1,10)]  public int amountHeal = 5;
     private int maxHealth;
 
-    
+    [Space(10)]
 
     //interact with Chankeli
     public bool canTalkWithPatner = true;
@@ -49,6 +53,7 @@ public class PlayerController : MonoBehaviour {
     //This way or with a method "status update"
     public int whereAmI = 0;
 
+    [Space(10)]
     // Disappear
     public float timeToReapper = 4;
     private bool inCombat;
@@ -92,15 +97,11 @@ public class PlayerController : MonoBehaviour {
             {
                 if (!isCrouched)
                 {
-                    this.gameObject.transform.Find("Collider").localScale = new Vector3(gameObject.transform.Find("Collider").localScale.x, crouchHeight, gameObject.transform.Find("Collider").localScale.z);
-                    this.gameObject.transform.Find("Base").localPosition = new Vector3(this.gameObject.transform.Find("Base").localPosition.x, this.gameObject.transform.Find("Base").localPosition.y + 0.4f, this.gameObject.transform.Find("Base").localPosition.z);
-                    movementSpeed = crouchSpeed;
+                    Crouch();
                 } 
                 else
                 {
-                    this.gameObject.transform.Find("Collider").localScale = new Vector3(this.gameObject.transform.Find("Collider").localScale.x, notCrouchHeight, this.gameObject.transform.Find("Collider").localScale.z);
-                    this.gameObject.transform.Find("Base").localPosition = new Vector3(this.gameObject.transform.Find("Base").localPosition.x, this.gameObject.transform.Find("Base").localPosition.y - 0.4f, this.gameObject.transform.Find("Base").localPosition.z);
-                    movementSpeed = notCrouchSpeed;
+                    StandUp();
                 }
                 NPC_Chankeli.GetComponent<ChankeliController>().Crouch(); 
                 isCrouched = !isCrouched;
@@ -136,6 +137,24 @@ public class PlayerController : MonoBehaviour {
             }
         }
 	}
+
+    void Crouch()
+    {
+        crouchedCollider.enabled = true;
+        standColl.enabled = false;
+        jennirShape.localScale = new Vector3(jennirShape.localScale.x, crouchHeight, jennirShape.localScale.z);
+        jennirShape.localPosition = new Vector3(0, jennirShape.localPosition.y - 0.4f, 0);
+        movementSpeed = crouchSpeed;
+    }
+
+    void StandUp()
+    {
+        crouchedCollider.enabled = false;
+        standColl.enabled = true;
+        jennirShape.localScale = new Vector3(jennirShape.localScale.x, notCrouchHeight, jennirShape.localScale.z);
+        jennirShape.localPosition = new Vector3(0, jennirShape.localPosition.y + 0.4f, 0);
+        movementSpeed = notCrouchSpeed;
+    }
 
     void Heal()
     {

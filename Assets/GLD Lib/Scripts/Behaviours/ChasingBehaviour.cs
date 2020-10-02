@@ -25,9 +25,14 @@ public class ChasingBehaviour : _VigilantBehaviour {
 		if (t == null)
 			return;
 		transform.LookAt (t);
-		if (goTowardTarget) {
-            agent.SetDestination(t.position);
-		}
+        if (Vector3.Distance(transform.position, t.position) > stopAt)
+        {
+            if (goTowardTarget)
+            {
+                agent.SetDestination(t.position);
+            }
+        }
+		
 	}
 
     // it's chankeli... teleport!
